@@ -8,7 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'my-custom-color': '#fffff'
+        'BLUE': '#1B4DB1',
+        'YELLOW': '#F3F243',
+        'PINK': '#FF64BC',
+        'BLACK': '#000000',
+        'BLACKLIGHT': '#1A1E2E',
+        'GRAY DARK': '#6E6A6C',
+        'GRAY': '#A7A6A7',
+        'GRAY LIGHTER': '#F8F7FA',
+        'GRAY LIGHT': '#D9D9D9',
+        'RED': '#EF3F47'
       },
       screens: {
         xs: '375px',
