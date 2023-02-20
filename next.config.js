@@ -1,24 +1,17 @@
 /** @type {import('next').NextConfig} */
-/* const nextConfig = {
+const nextConfig = {
   reactStrictMode: true,
+  /* swcMinify: true,
+  optimizeFonts: true,
   images: {
-    domains: ['https://drive.google.com/file/d/1z8AS1vpCglN7HZegLQa04ZFqQT_XOuHH/view'],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'drive.google.com',
-        port: '',
-        pathname: '/file/**',
+        hostname: 'tinypic.host',
       },
     ],
-  },
-}; */
-
-module.exports = {
-  reactStrictMode: true,
-  images: {
-    domains: [
-      'https://drive.google.com/file/d/1z8AS1vpCglN7HZegLQa04ZFqQT_XOuHH/view',
-    ],
-  },
+    minimumCacheTTL: 1500000,
+  }, */
 };
+
+module.exports = nextConfig;
